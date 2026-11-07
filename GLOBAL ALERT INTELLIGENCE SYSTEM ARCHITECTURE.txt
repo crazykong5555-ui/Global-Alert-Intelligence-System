@@ -1,0 +1,30 @@
+GLOBAL ALERT INTELLIGENCE SYSTEM
+│
+├── Backend API
+│     ├── RSS crawler
+│     ├── keyword analyzer
+│     ├── severity classifier
+│     └── GeoJSON generator
+│
+├── Database
+│     └── alerts storage
+│
+└── Frontend Dashboard
+      ├── mapa mundial
+      ├── lista de alertas
+      ├── filtro por severidad
+      └── visor de noticias
+
+
+Estructura del proyecto
+global-alert-intelligence
+│
+├── backend
+│   ├── app.py
+│   ├── rss_monitor.py
+│   └── requirements.txt
+│
+└── frontend
+    ├── package.json
+    └── src
+        └── App.js
